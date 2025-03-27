@@ -308,12 +308,75 @@ h4 span{
 .slider{
     margin-bottom: 90px;
 }
-h2{
+.title h2{
     font-size: 60px;
     font-weight: 600;
+    display: block;
     display: flex;
-    justify-content: space-around; 
+    justify-content: space-around;
+    margin-bottom: 50px;
 }
+.rectengle{
+    width: 1280px;
+    height: 466.39px;
+    margin: 20px auto;
+    display: flex;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: repeat(3,1fr);
+    row-gap: 60px;
+    position: relative;
+    column-gap: 60px;
+    
+}
+.pests img{
+    width:48.72px;
+    height:46.8px;
+}
+.pests{
+    display: flex;
+    align-items: center;
+    border:1px solid rgb(0, 0, 0,0.5);
+    border-radius:15px;
+    padding:30px 60px;
+    transition:border-color 0.3s ease;
+}
+.pests h3{
+    font-size: 24px;
+    font-weight:600;
+    color:#000000;
+    display: inline-block;
+    margin-left: 20px;
+    align-items: center;
+
+}
+.pests:hover {
+    border-color:#3584EC; 
+}
+.rectengle p{
+    font-size: 18px;
+    color: #6C7C81;
+    position: absolute;  
+    top:110%;
+    left:33%;
+}
+.rectengle a span{
+    font-size: 18px;
+    font-weight: 600;
+    color:#3584EC;
+    position: absolute;
+    top:120%;
+    left:43%;
+    word-spacing: 2px;
+}
+.rectengle a span i{
+    width:7.26px;
+    height:11.25px;
+    margin-left: 5px;
+    align-items: center;
+
+}
+
 
 
 
